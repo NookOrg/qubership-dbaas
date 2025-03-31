@@ -21,7 +21,10 @@ on:
         required: false
         type: boolean
         default: false
-        description: 'Dry run'        
+        description: 'Dry run'
+permissions:
+  contents: read
+  packages: write        
   
 jobs:
   dev-build:
